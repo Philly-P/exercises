@@ -2,7 +2,7 @@
 :root {
     --basic: #0F0; /* Variable declartion --*/
     font-family: 'Times New Roman', Garmond, serif;
-    background-color: #fff8dc;
+    background-color: #707070;
 }
 
 a:link, a:visited{ /*-- and-selector --*/
