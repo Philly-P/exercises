@@ -21,6 +21,31 @@
     var number = 10;//number variable
     var text = 'Hello, World!';//string variable
     var isTrue = true; //boolean function
+
+    // Changing the variables
+    var number = number + 5; // Adds 5 to the number variable
+        text = 'JavaScript is fun!'; // Changing variable values
+        console.log(isTrue); // Outputting values to the console
+
+        // Selecting elements
+        var elementById = document.getElementById('id'); // Selecting elements by ID
+        var elementsByClass = document.getElementsByClassName('class'); // Selecting elements by class name
+
+        // Changing an element's class
+        var element = document.getElementById('unique'); // Select the element by ID or class
+        element.classList.add('new-class'); // Add a class to the element
+        element.classList.remove('old-class'); // Remove a class from the element
+        element.classList.toggle('toggle-class'); // Toggle a class (adds the class if it's not present, removes if it's present)
+
+        // Functions
+        function changeText() { // This function (activated by the button with an onclick) adds and removes a class from the text element in the body
+            var text = document.getElementById('id'); // Select the element by ID or class
+            text.classList.toggle('red'); // Adds the class 'red' to the element if it's not present, and removes the class 'red' if it's already present
+        }
+    </script>
+</body>
+</html>
+
 </script>
 
 
